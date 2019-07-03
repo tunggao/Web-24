@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    height: 30vh;
+    background-image: url('./england.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 8vh;
+    padding-left: 80px;
+}
+
+.banner h1, .banner h4{
+    color: #ffffff;
+}
+
+.title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+.image-container h4{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+
+.main-content .image-container .img{
+    display: inline-block;
+}
+
+.footer .info{
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.main-content .image-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-content .image-container .img .img1{
+    background-image: url('mexico.jpg');
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    width: 250px;
+    height: 250px;
+}
+
+.main-content .image-container .img .img2{
+    background-image: url('new york.jpg');
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+    width: 250px;
+    height: 250px;
+}
+
+.main-content .image-container .img .img3{
+    background-image: url('tokyo.jpg');
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    margin-left: 60px;width: 250px;
+    height: 250px;
+}
+
+.main-content .image-container .img .img4{
+    background-image: url('paris.jpg');
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    margin-left: 60px;
+    width: 250px;
+    height: 250px;
+}
+
+.main-content .image-container .img .img5{
+    background-image: url('VN.jpg');
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    margin-left: 90px;
+    width: 250px;
+    height: 250px;
+}
+
+.footer .info{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
