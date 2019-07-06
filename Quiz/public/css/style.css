@@ -1,0 +1,29 @@
+.header{
+    
+}
+.top{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.rep .button-1{
+    margin-left: 400px;
+    margin-top: 50px;
+    background-color: red;
+}
+
+.rep .button-2{
+    margin-left: 400px;
+    margin-top: 50px;
+    background-color: blue;
+}
+
+.ask .button-3{
+    margin-left: 500px;
+    margin-top: 50px; 
+}
+
+.ask .button-4{
+    margin-left: 250px;
+    margin-top: 50px; 
+}
