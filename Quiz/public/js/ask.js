@@ -28,7 +28,7 @@ window.onload = () => {
                     const inputContainerElement = document.querySelector('.input-container');
                     if (inputContainerElement) {
                         inputContainerElement.insertAdjacentHTML(
-                            'beforend',
+                            'beforeend',
                             `<div class='error-message'>Please input question</div>`,
                         )
                     }
@@ -61,6 +61,7 @@ window.onload = () => {
                         .then((data) => {
                             if (data.success) {
                                 // redirect to question detail
+                                window.location.href = `/question/${data.id}`;
                             } else {
                                 window.alert(data.message);
                             }

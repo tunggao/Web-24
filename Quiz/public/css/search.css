@@ -1,0 +1,39 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.header{
+    background: rgb(193, 204, 164);
+    height: 50px;
+}
+.header a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0px;
+    padding-top:5px;
+    padding-left: 20px;
+    width: 150px;
+}
+a:hover{
+    background-color: coral;
+    height: 44px;
+}
+.find{
+    background-color: darkgoldenrod;
+    height: 44px;
+}
+.line{
+    margin-top:20px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+#input-container{
+    margin-left: 50px;
+}
+#text{
+    width:950px;
+}
+#send{
+    font-size: 15px;
+    margin-left:50px;
+}
